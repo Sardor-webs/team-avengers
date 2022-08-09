@@ -1,0 +1,152 @@
+main {
+    .bookmark {
+        margin-left: 155px;
+        margin-top: 190px;
+    }
+
+    .chiziq {
+        width: 350px;
+        height: 1px;
+        background-color: $text-color;
+        margin-top: 115px;
+        margin-left: 165px;
+    }
+
+    .div1 {
+        h1 {
+            width: 350px;
+            font-size: 40px;
+            height: 42px;
+            color: $text-color;
+            margin-left: 164px;
+            margin-top: 48px;
+            font-family: 'Ibarra Real Nova', serif;
+        }
+
+        p {
+            font-family: Public Sans;
+            font-size: 15px;
+            width: 350px;
+            height: 100px;
+            margin-left: 165px;
+            margin-top: 29px;
+        }
+        h4{
+            margin-top: 35px;
+            margin-left: 165px;
+            color: $hover-color;
+            font-size: 16px;
+            font-weight: 700;
+        }
+        h5{
+            margin-top: 16px;
+            margin-left: 165px;
+            font-size: 16px;
+            color: $hover-color;
+            font-weight: 700;
+        }
+        .left{
+            margin-left: 165px;
+            margin-top: 49px;
+        }
+        .top{
+            margin-top: 48px;
+        }
+    }
+    .div2 {
+        h1 {
+            width: 350px;
+            font-style: 40px;
+            height: 42px;
+            color: $text-color;
+            margin-left: 164px;
+            margin-top: 48px;
+            font-size: 32px;
+            font-weight: 400;
+            font-family: 'Ibarra Real Nova', serif;
+            margin-left: 640px;
+            margin-top: -460px;
+        }
+
+        p {
+            font-family: Public Sans;
+            font-size: 15px;
+            width: 400px;
+            height: 180px;
+            margin-left: 640px;
+            margin-top: 10px;
+        }
+    }
+    h2{
+        margin-left: 640px;
+        margin-top: -5px;
+    }
+    .kitob{
+        width: 635px;
+        margin-left: 640px;
+        margin-top: 28px;
+    }
+
+
+
+
+    .button1{
+        width: 510px;
+        height: 130px;
+        border: 1px solid silver;
+        border-left: none;
+        background-color: #fff;
+        margin-left: 165px;
+        margin-top: 64px;
+
+        h1{
+            margin-left: -300px;
+            color: $text-color;
+            font-size: 32px;
+            font-family: 'Ibarra Real Nova';
+            margin-top: 32px;
+        }
+        p{
+            margin-left: -300px;
+            font-size: 16px;
+            color: $text-color;
+            font-family: 'Public Sans';
+        }
+        i{
+            position: relative;
+            left: -250px;
+            top: -50px;
+        }
+    }
+    .button2{
+        width: 510px;
+        height: 130px;
+        border: 1px solid silver;
+        border-right: none;
+        background-color: #fff;
+        position: absolute;
+        left: 675px;
+        top: 2017.5px;
+
+
+
+        h1{
+            margin-left: 300px;
+            color: $text-color;
+            font-size: 32px;
+            font-family: 'Ibarra Real Nova';
+            margin-top: 32px;
+        }
+        p{
+            margin-left: 300px;
+            font-size: 16px;
+            color: $text-color;
+            font-family: 'Public Sans';
+        }
+        i{
+            position: relative;
+            left: 250px;
+            top: -50px;
+        }
+    }
+}

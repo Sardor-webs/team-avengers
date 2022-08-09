@@ -1,0 +1,41 @@
+header {
+    background-color: #FAFAFA;
+    .nav {
+        margin-top: 64px;
+        width: 1111px;
+        height: 32px;
+        width: 81%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgba(255, 255, 255, 0.853);
+        position: fixed;
+        &__brand{
+            width: 60px;
+            height: 32px;
+            margin-top: -10px;
+        }
+        &__list{
+            width: 30%;
+            display: flex;
+            justify-content: space-between;
+            list-style-type: none;
+            margin-top: 5px;
+            &__item{
+
+
+                &--link{
+                    text-decoration: none;
+                    color: $text-color;
+
+                    &:hover{
+                        color: $hover-color;
+                    }
+                }
+                .yashil{
+                    color: $hover-color;
+                }
+            }
+        }
+    }
+}

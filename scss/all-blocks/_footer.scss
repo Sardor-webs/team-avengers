@@ -1,0 +1,66 @@
+footer {
+    h1 {
+        height: 84px;
+        width: 350px;
+        border-radius: nullpx;
+        font-family: 'Ibarra Real Nova';
+        margin-left: 165px;
+        font-size: 40px;
+        font-weight: 700;
+        margin-top: 115px;
+    }
+    .chiziq{
+        width: 480px;
+        height: 1px;
+        background-color: $text-color;
+        margin-left: 547px;
+        margin-top: -40px;
+    }
+    button{
+        position: relative;
+        left: 1040px;
+        top: -25px;
+    }
+    .oxiri{
+        width: 100%;
+        height: 80px;
+        background-color: $text-color;
+        margin-top: 150px;
+        
+
+
+        .oqbrand{
+            margin-top: 24px;
+        }
+        ul{
+            width: 309px;
+            display: flex;
+            justify-content: space-between;
+            list-style-type: none;
+            margin-left: 40px;
+            margin-top: -24px;
+            li{
+                a{
+                    text-decoration: none;
+                    color: #FFFFFF;
+                    font-size: 12px;
+                }
+            }
+        }
+        .github{
+            position: relative;
+            left: 1006px;
+            top: -40px;
+        }
+        .twitter{
+            position: relative;
+            left: 1006px;
+            top: -40px;
+        }
+        .linkedin{
+            position: relative;
+            left: 1006px;
+            top: -40px;
+        }
+    }
+}
